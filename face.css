@@ -1,0 +1,176 @@
+*{
+    background-color: rgb(241, 245, 248);
+}
+
+
+
+
+.container{
+    display: grid;
+   justify-content: right;
+   
+padding-right: -15px;
+   /* padding-top: 10px; */
+   border: 2px solid whitesmoke;
+   
+   margin-top: -258px;
+   box-shadow: 2px 2px 2px  2px rgb(214, 214, 214);
+   color: white;
+   background-color: white;
+   border-radius: 7px;
+   
+
+}
+form{
+    display: grid;
+    justify-content: right;
+    margin-right: 205px;
+    padding-top: 10px;
+    color: white;
+    /* box-shadow: 10px 10px 12px 10px white; */
+}
+.first{
+display: grid;
+padding-left: 220px;
+padding-top: 145px;
+font-size: 66px;
+font-style: bold;
+color: rgb(14, 125, 168)
+}
+.para{
+display: grid;
+padding-left: 220px;
+padding-top: 0px;
+font-size: 29px;
+margin-top: -34px;
+
+
+}
+input{
+    border:2px solid hsl(255, 69%, 90%);
+    padding: 10px;
+    width: 320px;
+    height: 38px;
+    margin-top: 3px;
+   font-size: 1rem;
+
+    cursor: text;
+    border-radius: 9px;
+    background-color: white;
+
+ }
+ button{
+    background-color : rgb(14, 125, 168);
+    padding:5px;
+    border-radius: 6px;
+    cursor: pointer;
+    color: white;
+    font-size: 1.5rem;
+ }
+ input:hover{
+     border: 1px solid blue;
+ }
+ .btn{
+     background-color:green;
+     width: 220px;
+     justify-content: center;
+     align-items: center;
+     color: white;
+     font-size: 1.3rem;
+     display: flex;
+     margin-left: 58px;
+     /* margin-top: 12px; */
+ }
+ .secon{
+     margin-left: 97px;
+     /* padding-top: 54px; */
+     color: blue;
+     cursor: pointer;
+     margin-top: -10px;
+     background-color: white;
+ }
+ .third{
+   display: flex;
+   flex-direction: row-reverse;
+   margin-right: 225px;
+   cursor: pointer;
+ }
+ @media (max-width:468px){
+     *{
+         background-color: white;
+     }
+     .container{
+         float: right;
+         justify-content: right;
+         align-items: right;
+          margin-left: 300px;
+         margin-top: -60px;
+         width: 84%;
+         border: none;
+         box-shadow: none;
+     }
+      .formm{
+        float: right;
+        width: 90%;
+    margin-left: 300px;
+        margin-top: 90px;
+
+    }
+
+
+     .para{
+         display: none;
+     }
+     .first{
+         margin-top: -10px;
+         margin-left: -125px;
+     }
+     .third{
+         width: 90%;
+         display: none;
+         font-size: small;
+         padding: 10px;
+
+     }
+ }
+ 
+ @media (min-width:750px) and (max-width : 990px){
+    *{
+        background-color: white;
+    }
+    .container{
+        float: right;
+        justify-content: right;
+        align-items: right;
+         margin-left: 300px;
+        margin-top: -60px;
+        width: 56%;
+        border: none;
+        box-shadow: none;
+    }
+     .formm{
+       float: right;
+       width: 90%;
+   margin-left: 300px;
+       margin-top: 90px;
+
+   }
+
+
+    .para{
+        display: none;
+    }
+    .first{
+        margin-top: -10px;
+        margin-left: 10px;
+    }
+    .third{
+        width: 90%;
+        display: none;
+        font-size: small;
+        padding: 10px;
+
+    }
+ }
+
+ 
